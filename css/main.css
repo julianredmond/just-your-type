@@ -17,8 +17,13 @@ html {
   box-sizing: inherit;
 }
 
+.center {
+  text-align: center;
+}
+
 h1 {
   font-family: 'Audiowide', cursive;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -29,11 +34,50 @@ h2 {
   letter-spacing: 2px;
 }
 
-.yellow {
+.h1 {
   background-color: #FFE300;
 }
 
-.black {
+.h2 {
   background-color: black;
   color: #FFE300;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .h1reverse {
+    background-color: black;
+    color: #FFE300;
+
+  }
+
+  h1 {
+    text-transform: lowercase;
+  }
+
+  .h2reverse {
+      background-color: #FFE300;
+      color: black;
+      text-transform: uppercase;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  .large {
+    background-color: #FFE300;
+    color: black;
+  }
+
+  .large2 {
+    background-color: black;
+    color: #FFE300;
+  }
+
+
+
 }
