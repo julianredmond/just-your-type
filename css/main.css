@@ -4,7 +4,6 @@
 
 h1 {
   font-family: "Audiowide", cursive;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -31,23 +30,14 @@ h2 {
     color: #ffe300;
   }
 
-  h1 {
-    text-transform: lowercase;
-  }
-
   .h2reverse {
-      background-color: #ffe300;
-      color: black;
-      text-transform: uppercase;
+    background-color: #ffe300;
+    color: black;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
-
-  h1 {
-    text-transform: uppercase;
-  }
 
   .large {
     background-color: #ffe300;
