@@ -3,12 +3,12 @@
 }
 
 h1 {
-  font-family: 'Audiowide', cursive;
+  font-family: "Audiowide", cursive;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: 'Mina', sans-serif;
+  font-family: "Mina", sans-serif;
 }
 
 .letterspacing {
@@ -29,7 +29,6 @@ h2 {
   .h1reverse {
     background-color: black;
     color: #ffe300;
-
   }
 
   h1 {
@@ -41,6 +40,7 @@ h2 {
       color: black;
       text-transform: uppercase;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -58,7 +58,5 @@ h2 {
     background-color: black;
     color: #ffe300;
   }
-
-
 
 }
